@@ -3,7 +3,7 @@ import 'package:trilhapp/pages/configuracoes/configuracao_hive_page.dart';
 import 'package:trilhapp/pages/dados_cadastrais/dados_cadastrais_hive_page.dart';
 import 'package:trilhapp/pages/login_page.dart';
 import 'package:trilhapp/pages/numeros_aleatorios/numeros_aleatorios_hive_page.dart';
-import 'package:trilhapp/pages/tarefa/tarefa_hive_page.dart';
+import 'package:trilhapp/pages/tarefa/tarefa_sqlite_page.dart';
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});
@@ -128,7 +128,7 @@ class CustomDrawer extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                   builder: (BuildContext bc) =>
-                                      const TarefaPage()))
+                                      const TarefaSQLitePage()))
                         }),
                 const SizedBox(height: 10),
                 const Divider(),

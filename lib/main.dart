@@ -15,5 +15,6 @@ void main() async {
   // Registrar adaptador HIVE, criado atravez da model dados_cadastrais_model.dart
   Hive.registerAdapter(DadosCadastraisModelAdapter());
   Hive.registerAdapter(TarefaHiveModelAdapter());
+
   runApp(const MyApp());
 }
